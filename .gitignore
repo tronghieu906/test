@@ -1,0 +1,5 @@
+# Ignore node modules and VSCode settings
+node_modules/
+.vscode/
+dist/
+*.log
