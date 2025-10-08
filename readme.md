@@ -320,24 +320,10 @@ ___
 
 <details>
 <summary>Click to expand advanced scripting example</summary>
+<br>
 
-```javascript
-// Adobe ExtendScript example
-#target photoshop
-
-function batchProcessLayers() {
-  var doc = app.activeDocument;
-  var layers = doc.layers;
-  
-  for (var i = 0; i < layers.length; i++) {
-    if (layers[i].kind === LayerKind.TEXT) {
-      layers[i].textItem.size = 24;
-    }
-  }
-}
-
-batchProcessLayers();
-```
+- sample text
+  * Donec id tempor metus. Nullam sit amet molestie risus, at iaculis dolor. Nam tincidunt, mauris vel sollicitudin rutrum, libero lorem porttitor nisl, eu malesuada ex elit sit amet nisi. Aenean luctus, mi vel mattis cursus, ante ipsum fermentum nunc, ac dignissim risus nunc nec massa. Phasellus porta, erat sed tincidunt ultrices, purus dolor ornare orci, et lacinia diam nisi non diam. Donec faucibus eros in metus lacinia finibus. Curabitur aliquam consequat ex a sagittis. Maecenas luctus, erat sit amet aliquam feugiat, libero tellus condimentum nulla, eget porttitor nunc diam eget ex. Maecenas quis metus eget quam euismod ullamcorper eget cursus ante.
 
 </details>
 
