@@ -154,29 +154,29 @@ function updateScore(player) {
 
 ### Basic Table
 
-| Feature | Photoshop | Illustrator | After Effects |
-|---------|-----------|-------------|---------------|
-| Raster Editing | ✓ | ✗ | Limited |
-| Vector Graphics | Limited | ✓ | ✓ |
-| Animation | Limited | ✗ | ✓ |
-| 3D Support | ✓ | ✗ | ✓ |
+| Feature         | Photoshop | Illustrator | After Effects |
+| --------------- | --------- | ----------- | ------------- |
+| Raster Editing  | ✓         | ✗           | Limited       |
+| Vector Graphics | Limited   | ✓           | ✓             |
+| Animation       | Limited   | ✗           | ✓             |
+| 3D Support      | ✓         | ✗           | ✓             |
 
 ### Aligned Columns
 
 | Left Aligned | Centre Aligned | Right Aligned |
-|:-------------|:--------------:|--------------:|
-| Text         | Text           | Text          |
-| More text    | More text      | More text     |
-| Even more    | Even more      | Even more     |
+| :----------- | :------------: | ------------: |
+| Text         |      Text      |          Text |
+| More text    |   More text    |     More text |
+| Even more    |   Even more    |     Even more |
 
 ### Complex Table with Formatting
 
-| Language | Difficulty | Use Case | **Recommended?** |
-|----------|:----------:|----------|:----------------:|
-| **Python** | ⭐⭐☆☆☆ | Scripting, automation, data processing | ✅ |
-| **JavaScript** | ⭐⭐⭐☆☆ | Web dev, game engines, After Effects | ✅ |
-| **ExtendScript** | ⭐⭐⭐⭐☆ | Adobe automation (legacy) | ⚠️ |
-| **C++** | ⭐⭐⭐⭐⭐ | Game engines, plugins, performance | 🔧 |
+| Language         | Difficulty | Use Case                               | **Recommended?** |
+| ---------------- | :--------: | -------------------------------------- | :--------------: |
+| **Python**       |   ⭐⭐☆☆☆    | Scripting, automation, data processing |        ✅         |
+| **JavaScript**   |   ⭐⭐⭐☆☆    | Web dev, game engines, After Effects   |        ✅         |
+| **ExtendScript** |   ⭐⭐⭐⭐☆    | Adobe automation (legacy)              |        ⚠️         |
+| **C++**          |   ⭐⭐⭐⭐⭐    | Game engines, plugins, performance     |        🔧         |
 
 ---
 
@@ -213,21 +213,21 @@ Jump to [Advanced Features](#advanced-features) section.
 
 ### Basic Image
 
-![Placeholder Image](https://via.placeholder.com/600x200/0066cc/ffffff?text=Markdown+Showcase)
+![Placeholder Image](https://i.postimg.cc/Y28nytRs/test.jpg)
 
 ### Image with Reference
 
 ![Creative Suite Workflow][workflow-diagram]
 
-[workflow-diagram]: https://via.placeholder.com/800x300/6b46c1/ffffff?text=Creative+Workflow "Typical Creative Suite Workflow"
+[workflow-diagram]: https://i.postimg.cc/Y28nytRs/test.jpg "Typical Creative Suite Workflow"
 
 ### Image with Link
 
-[![Click this image](https://via.placeholder.com/400x150/e91e63/ffffff?text=Clickable+Image)](https://example.com)
+[![Click this image](https://i.postimg.cc/Y28nytRs/test.jpg)](https://google.com)
 
 ### Image Size Control (HTML)
 
-<img src="https://via.placeholder.com/300x100/4caf50/ffffff?text=Custom+Size" width="200" alt="Custom sized image">
+<img src="https://i.postimg.cc/Y28nytRs/test.jpg" width="200" alt="Custom sized image">
 
 ---
 
@@ -367,12 +367,12 @@ Here's a complex example combining multiple features:
 > [!TIP]
 > This workflow is optimised for indie developers using Adobe Creative Suite alongside game engines.
 
-| Stage | Tool | Output | Script Available? |
-|-------|------|--------|:-----------------:|
-| **Concept Art** | Photoshop | `.psd`, `.png` | ✅ |
-| **UI Design** | Illustrator | `.ai`, `.svg` | ✅ |
-| **Animation** | After Effects | `.mp4`, `.mov` | ✅ |
-| **Implementation** | Unity/Unreal | Game build | 🔧 |
+| Stage              | Tool          | Output         | Script Available? |
+| ------------------ | ------------- | -------------- | :---------------: |
+| **Concept Art**    | Photoshop     | `.psd`, `.png` |         ✅         |
+| **UI Design**      | Illustrator   | `.ai`, `.svg`  |         ✅         |
+| **Animation**      | After Effects | `.mp4`, `.mov` |         ✅         |
+| **Implementation** | Unity/Unreal  | Game build     |         🔧         |
 
 #### Automation Script Example
 
